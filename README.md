@@ -1,4 +1,6 @@
 # Lab 4 - Quiz app
+## Important
+Change .env variable according to the access token.
 
 ## Story
 

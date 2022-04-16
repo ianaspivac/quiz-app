@@ -1,0 +1,38 @@
+.user-form input[type="text"] {
+    border: 1px solid #FF9B85;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 10px 5px;
+    width: 300px;
+    max-width: 80%;
+}
+
+.user-form input[type="submit"] {
+    margin-top: 10px;
+}
+
+.header-container,
+.Header,
+.Header ul {
+    display: flex;
+}
+
+.Header {
+    height: 50px;
+    align-items: center;
+    background-color: #C88374;
+    width: 100vw;
+}
+
+.header-container {
+    padding: 0;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.Header a {
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 50px;
+}

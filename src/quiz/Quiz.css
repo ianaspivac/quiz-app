@@ -1,0 +1,139 @@
+.app-title {
+    font-family: 'Cormorant', serif;
+    margin-top: 10%;
+    margin-bottom: 50px;
+}
+
+.app-title h1 {
+    color: #FF9B85;
+    font-size: 64px;
+}
+
+.app-title h2 {
+    color: #f8ab99;
+    font-size: 48px;
+}
+
+.quiz-image-container {
+    height: 150px;
+    width: 100%;
+}
+
+.quiz-image-container img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.quiz-container {
+    margin: 10px;
+}
+
+.quiz-list-container {
+    width: 100%;
+}
+
+.quiz-list-container ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quiz-name {
+    color: rgb(95, 95, 95);
+    margin: 10px 0;
+}
+
+.quiz-list-container ul li {
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -2px #FF9B85;
+    box-shadow: 0px 0px 10px -2px #FF9B85;
+    margin: 10px;
+    width: 250px;
+}
+
+.quiz-list-container ul li:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px -2px #ad6c5e;
+    box-shadow: 0px 0px 10px -2px #ad6c5e;
+}
+
+.question-container {
+    background-color: #f8f6f6;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 20px;
+    -webkit-box-shadow: 0px 0px 10px -2px #FF9B85;
+    box-shadow: 0px 0px 10px -2px #FF9B85;
+}
+
+.question-answers {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.question-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.questions-list-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 100%;
+}
+
+.question-answers label {
+    margin-left: 5px;
+}
+
+.question-answers input {
+    cursor: pointer;
+    margin-left: 0;
+}
+
+.question-answers {
+    font-size: 18px;
+}
+
+.quiz-title-page {
+    font-family: 'Cormorant', serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+input[type="submit"] {
+    border: none;
+    border-radius: 4px;
+    background-color: #FF9B85;
+    cursor: pointer;
+    color: white;
+    font-family: 'Padauk', sans-serif;
+    font-size: 18px;
+    padding: 10px 15px;
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(115, 50, 57, 0.85);
+    box-shadow: 0px 0px 11px -2px rgba(115, 50, 57, 0.85);
+}
+
+input[type="submit"]:hover {
+    -webkit-box-shadow: 0px 0px 11px -2px rgba(172, 118, 123, 0.85);
+    box-shadow: 0px 0px 11px -2px rgba(172, 118, 123, 0.85);
+}
+
+.question-submit-btn {
+    margin: 20px auto;
+    margin-right: 20px;
+}
+
+.quiz-result {
+    font-size: 40px;
+    margin-top: 10px;
+}

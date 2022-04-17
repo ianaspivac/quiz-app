@@ -16,7 +16,7 @@ function Quiz(props) {
 	useEffect(() => {
 		setUserId(localStorage.getItem("userId"));
 		console.log(userId)
-		axios.get(`https://pure-caverns-82881.herokuapp.com/api/v54/quizzes/${quizId}`, { params:{ user_id: 719}, headers: { "X-Access-Token": process.env.REACT_APP_ACCESS_TOKEN }})
+		axios.get(`https://pure-caverns-82881.herokuapp.com/api/v54/quizzes/${quizId}`, { params:{ user_id: userId}, headers: { "X-Access-Token": process.env.REACT_APP_ACCESS_TOKEN }})
 			.then(res => {
 				setQuiz(res.data);
 				setLoaded(true);

@@ -36,7 +36,7 @@ function Quiz(props) {
     	}
 		},
 		{
-			headers: { "X-Access-Token": "9aa385e7947e1426162b7efdddc2cb0dd8021517ec36930eb3009eb6efecc076" }
+			headers: { "X-Access-Token": process.env.REACT_APP_ACCESS_TOKEN }
 		})
 		.then(function (res) {
 			if (res.data.correct) setResult((prevState) => prevState + 1)
